@@ -1,0 +1,358 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    color: white;
+}
+
+.navbarblack {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.menubt {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: .1em;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navul li a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.firstimg img {
+    height: 700px;
+   
+}
+
+.carousel-caption {
+    margin-bottom: 131px;
+
+}
+
+.tasteit {
+    border: 1px solid var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.firstimg img{
+   background-color: rgb(52, 11, 11);
+   filter: blur(1px);
+}
+
+.carousel-caption h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 10vw;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.forminput input {
+    background: transparent;
+    margin-bottom: 15px;
+    border-radius: 0;
+    color: var(--white);
+    padding: 10px 5px;
+    border: 1px solid #c37a81;
+
+
+}
+
+.form-control::placeholder {
+    color: var(--white);
+}
+
+.shafeimg {
+    background-image: url(../images/Background/scetion2bg.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about1 {
+    color: #eb5860;
+    line-height: 1;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: -15px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.welcome1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.para {
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 400;
+    color: gray;
+}
+
+.section3 {
+    background-image: radial-gradient(rgb(83, 66, 66, 2), rgb(104, 99, 99, 0)), url(../images/Background/bg_3.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.imagethree {
+    height: 400px;
+}
+
+.booking1 {
+    padding-top: 180px;
+}
+
+.Specialist {
+
+    font-size: 40px;
+    color: #eb5860;
+    line-height: 1;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: -14px;
+
+}
+
+.Welcome3 {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.section4 {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+.breakfastimg img {
+    border-radius: 50%;
+}
+
+.breakfastimg {
+    height: 100px;
+}
+
+.breakfast {
+    border: 1px dashed gray;
+    padding-top: 50px;
+    
+}
+
+.Specialistmb {
+    margin-bottom: 80px;
+}
+
+.section5 {
+    background-image: url(../images/Background/sect5bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.Testimonydiv {
+    height: 610px;
+}
+
+.Testimony {
+    padding-top: 131px;
+}
+
+.hcustomer {
+    font-size: 40px;
+}
+
+.person1img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.sectionsix {
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.sectsixfig img {
+    height: 350px;
+    width: 100%;
+
+}
+
+.sectseven {
+    background-color: #b3a3a30a;
+    padding-top: 2px;
+}
+
+.img1st {
+    background-image: url(../images/Background/chef-4.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 50%;
+}
+
+.img2nd {
+    background-image: url(../images/Background/bg_6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 50%;
+}
+
+.sevendiv {
+    margin-top: 76px;
+}
+
+.Specialist2 {
+
+
+    color: #eb5860;
+    line-height: 1;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: -14px;
+
+}
+
+.blog {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.restimg {
+    height: 250px;
+}
+
+.divnine {
+    height: 250px;
+}
+
+.Delicious {
+    padding-top: 60px;
+}
+
+.sectten {
+    background-color: #1a1a1a;
+}
+
+.tendiv {
+    padding-top: 150px;
+}
+
+.tenul a {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+
+}
+.bgbtn{
+    background: rgba(255, 255, 255, 0.1) ;
+}
+
+.hours li {
+    line-height: 10px;
+}
+
+.opendiv {
+    height: 100px;
+}
+
+.commenticon {
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: gray;
+}
+.navbarblack {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 66px;
+}
+.tablepd{
+   height: 600px;
+}
+
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+
+@media (min-width:1200px) {
+    .navbarblack {
+        position: absolute;
+        top: 20px;
+        right: 230px;
+        left: 230px;
+        height: 80px;
+        padding: 0px 10px;
+    }
+    .tastepadd{
+        margin: 0px 390px;
+        letter-spacing: 4px;
+    }
+    .carousel-caption h1{
+        margin-top: 0;
+    }
+    .div1st{
+        padding-left: 69px;
+    }
+    .div1st h4{
+       font-size: 40px;
+       margin-bottom: -21px;
+    }
+    .div1st h2{
+        font-size: 36px;
+        padding-right: 411px;
+        font-weight: 1000;
+     }
+     .div1st p{
+       width: 430px;
+     }
+     .Testimonyp{
+        width: 589px;
+margin-left: 486px;
+     }
+     .Delicious  h2{
+        font-weight: 100;
+     }
+}

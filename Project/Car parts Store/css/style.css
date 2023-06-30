@@ -1,0 +1,348 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--white);
+    font-family: 'Mada', sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #7b68ee;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(113, 111, 111, 0.2);
+
+}
+
+.vehicle {
+    font-size: 30px;
+}
+
+.backimg img {
+    height: 650px;
+    filter: blur(1px);
+
+}
+
+.productbtn1 {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.partstore {
+    font-size: 27px;
+}
+
+.section2 {
+
+    padding: 100px 0px;
+}
+
+.bigsale {
+    height: 300px;
+    padding-left: 15px;
+}
+
+.bigsale1 {
+    background-image: linear-gradient(to right, rgba(37, 34, 34, 0.5), rgb(34, 5, 5, 0.3)), url(../images/background/car1.webp);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.bigsale2 {
+    background-image: linear-gradient(to right, rgba(37, 34, 34, 0.5), rgb(34, 5, 5, 0.3)), url(../images/background/car2.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.card img {
+    height: 280px;
+}
+
+.cardi i {
+    color: var(--yellow);
+}
+
+.section3 {
+    background-image: url(../images/background/deal-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
+
+.flash h2 {
+    font-weight: 800;
+    font-size: 37px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.flash h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.timer {
+    background: linear-gradient(to bottom, rgb(80, 18, 124), rgb(110, 72, 137));
+    height: 80px;
+    width: 60px;
+    font-size: 30px;
+}
+.section4{
+    padding-bottom: 100px;
+}
+.Subscribeh2 {
+        padding-top:100px;
+        padding:100px 20px 0px;
+}
+.Subscribeh2 h2{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+.section5{
+    background-image: linear-gradient(rgba(16, 4, 4, 0.9),rgb(33, 30, 30,0)) ,url(../images/background/slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 650px; */
+}
+.Subscribe{
+    background: #6332f0;
+    padding: 13px 70px;
+
+}
+.Emailinput{
+    padding: 10px 12px;
+}
+.testimonial{
+    background: #fafafa;
+    padding: 30px 20px;
+    margin: 0px 20px;
+
+}
+.testimonialimg img{
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    border-left-color: #7b68ee;
+    border-bottom-color: #7b68ee;
+}
+.trust{
+    border: 3px solid #fff;
+    padding: 55px 15px;
+    background-color: #f5f6f9;
+    /* position: relative;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px; */
+}
+.globe i{
+    color:#7b68ee ;
+    font-size: 50px;
+}
+.globe {
+   
+    width: 88px;
+    height: 84px;
+   
+}
+.pglobe p{
+    font-size: 14px;
+    color: #444;
+}
+.pglobe h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.category {
+   width: 107px;
+   height: 107px;
+}
+.Compressor{
+    background: #f8f7fa;
+}
+
+.section7{
+    background: #f8f7fa;
+}
+
+.article,i{
+    color: #7b68ee;
+    font-size: 13px;
+}
+.article a{
+  text-decoration: none;
+  color: #7b68ee;
+}
+.contactinput{
+    padding: 10px 10px;
+    border-left: 3px solid #7b68ee;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    margin: 10px 0px;
+   
+}
+.messageinput{
+    border-left: 3px solid #7b68ee;
+    font-size: 15px;
+    background-color: #f5f5f5;
+    height: 140px;
+    text-align: left;
+
+}
+.sendbtn{
+    background-color:#7b68ee ;
+
+}
+.section9{
+    background-color:#f5f5f5 ;
+}
+.partner img{
+    height: 40px;
+}
+.section10{
+    background-color: #08141f;
+}
+.about{
+    font-size: 13px;
+}
+.iconul li a i{
+    color: #7b68ee;
+    font-size: 17px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+.iconul {
+    list-style: none;
+    padding-left: 0;
+ }
+ .iconul li{
+  display: inline;
+ }
+.servicesul{
+    list-style: none;
+    padding-left: 0;
+   
+}
+.servicesul li{
+    margin-bottom: 10px;
+}
+.servicesul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .header {
+        display: flex;
+    }
+
+    .subheader {
+        margin-left: 54px;
+        padding-left: 65px;
+    }
+
+    .timer {
+        margin-left: 10px;
+        width: 115px;
+    }
+    .content{
+        padding: 0px 200px;
+    }
+    .partstore {
+        font-size: 45px;
+    }
+    .Emailinput{
+        padding-right: 150px;
+    }
+    .Subscribeh2 p{
+        padding: 0px 100px;
+    }
+    .Subscribe{
+        padding: 13px 70px;
+       }
+
+
+}
+
+@media (min-width:992px){
+   .Subscribe{
+    padding: 13px 70px;
+   }
+   .Subscribeh2 p{
+    padding: 0px 200px;
+}
+}
+
+
+@media (min-width:992px){
+      .Emailinput {
+  padding-right: 203px;
+  margin-left: 182px;
+  border: none;
+}
+.inputdiv{
+    width: 550px;
+    margin-left: 100px;
+}
+.subscribediv{
+    width: 327px;
+}
+}

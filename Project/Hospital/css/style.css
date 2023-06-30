@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desktop {
+    display: none;
+}
+
+.dot {
+    color:#3c90f7;
+}
+
+.mobileview {
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0rem 1.2rem;
+}
+
+.mobileview h2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mobileview a i {
+    color: black;
+}
+
+.firstsection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/background/hero_1.jpg.webp);
+    background-color: white;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.health h2 {
+    font-size: 2rem;
+    color: white;
+    line-height: 1;
+    padding: 10px;
+
+}
+
+.health {
+    padding-top: 30px;
+    height: 260px;
+}
+
+.health p {
+    padding: 30px 10px 10px 10px;
+}
+
+.btn1 {
+    background-color: #3c90f7;
+    font-size: 16px;
+    color: white;
+    height: 35px;
+    font-weight: 200;
+    width: 128px;
+    border-radius: 12px;
+}
+
+.second {
+    width: 100%;
+    text-align: left;
+}
+
+.form {
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-right: 39px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.giveuscall {
+    text-align: center;
+}
+
+.blue i {
+    color:#007bff;
+    font-size: 20px;
+
+}
+
+.blue {
+    display: inline-block;
+    padding: 0px 30px 20px 10px;
+    color: #3c90f7;
+}
+
+.blue h5 {
+    padding-left: 25px;
+}
+
+.blue h6 {
+    padding-right: 8px;
+}
+
+.f5 {
+    color: gray;
+    font-size: 12px;
+}
+
+.call {
+    display: inline-block;
+
+}
+
+.call p {
+    color: #3c90f7;
+
+}
+
+.sendmessage {
+    text-align: center;
+}
+
+.visitus {
+    text-align: center;
+}
+
+.third1 img {
+    /* height: 300px; */
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.third2 {
+    padding-left: 20px;
+}
+
+.third2 h5 {
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.third2 h2 {
+    color: #3c90f7;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.third2 p {
+    color: gray;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+.bluegreen {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.bluegreen a button {
+    padding: 10px 30px;
+    border-radius: 43px;
+
+}
+
+.bluebtn1 {
+    background: #007bff;
+    color: white;
+    border-color: #3c90f7;
+}
+
+.greenbtn1 {
+    background: #71bc42;
+    color: white;
+    border-color: #8cba51;
+}
+
+.forth1 {
+    padding-left: 20px;
+    max-width: 41.67%;
+}
+
+.forth1 h5 {
+    color: gray;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.black {
+    color: black;
+}
+
+.forth1 h2 {
+    color: #007bff;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.forth p {
+    color: gray;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+.forth2 img {
+    /* height: 200px; */
+    height: auto;
+    background-size: cover;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fifth11 h5 {
+    color: gray;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.fifth11 h2 {
+    color: #007bff;
+    font-size: 40px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.fifthall {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fifth1 {
+    text-align: center;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 45px;
+}
+
+.fifth1 a img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.sub1 {
+    background-color: #3c90f7;
+    border-radius: 5px;
+}
+.sub1 img{
+    max-width: 100%;
+}
+.sub2 img{
+    max-width: 100%;
+}
+.sub3 img{
+    max-width: 100%;
+}
+
+.sub1 a {
+    text-decoration: none;
+}
+
+.fifthblue {
+    margin-top: 30px;
+}
+
+.fifthblue h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+.fifthblue p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+/* two */
+.sony {
+    display: flex;
+}
+
+.fifth2 {
+    text-align: center;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 45px;
+
+}
+
+.fifth2 a img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.sub2 {
+    background-color: #3c90f7;
+    border-radius: 5px;
+}
+
+.sub2 a {
+    text-decoration: none;
+}
+
+.fifthblue {
+    margin-top: 30px;
+}
+
+.fifthblue h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+.fifthblue p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+
+.fifth3 {
+    text-align: center;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 45px;
+}
+
+.fifth3 a img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.sub3 {
+    background-color: #3c90f7;
+    border-radius: 5px;
+}
+
+.sub3 a {
+    text-decoration: none;
+}
+
+.fifthblue {
+    margin-top: 30px;
+}
+
+.fifthblue h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+.fifthblue p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+
+.six1 h5 {
+    color: gray;
+    padding-top: 50px;
+    /* letter-spacing: 2px; */
+    text-align: center;
+}
+
+.six h2 {
+    color: #3c90f7;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.siximg1 img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.siximg1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.siximg1 p {
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.siximg1 h6 {
+    color: gray;
+    font-style: italic;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 12px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.seventh1 h6{
+    text-align: center;
+    letter-spacing: 2px;
+    color: grey;
+    padding-top: 150px;
+}
+.seventh1 h2{
+    font-size: 28px;
+    color: #007bff;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sevensect{
+    background-color: white;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sevsub1{
+    padding: 100px 15px;
+}
+.sevsub1 span{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    color: gray;
+}
+.sevsub1 h2{
+    color: #007bff;
+    font-size: 28px;
+}
+
+
+/* first  */
+.seven1box{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.sub1seven img{
+    max-width: 100%;
+    height: auto;
+}
+.sub2seven{
+    background:white;
+    padding: 2px 4px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.spanicon1 i{
+    color: #007bff;
+   
+}
+.jul23{
+    font-size: 13px;
+    color: gray;
+    letter-spacing: .2em;
+}
+.sub3seven{
+    margin-top: 30px;
+}
+.sub3seven h2{
+    color: #007bff;
+}
+.sub3seven p{
+    color: gray;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+.lastsection{
+    background-color: #3c90f7;
+    padding-bottom: 101px;
+    border-bottom: 1px solid white;
+}
+.lastall{
+    padding: 50px 10px 20px 20px ;
+}
+.lastsub1 h2{
+      padding-bottom: 30px;
+      color: white;
+}
+.listitems{
+    list-style: none;
+    margin-top: 0;
+   margin-bottom: 1rem;
+}
+.listitems li{
+    margin-bottom: 10px;
+}
+.listitems li a{
+    color: white;
+}
+
+.lastsubsocial h2{
+    padding-bottom:  30px;
+    color: white;
+    
+}
+.subscribe{
+    padding-bottom:  30px;
+    padding-top: 20px;
+}
+.socialicons a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #3c90f7;
+}
+.socialicons a i{
+    color: #3c90f7;
+}
+.lastbutton input{
+    border: 2px solid white;
+    color: #fff;
+   border-radius: 7px;
+   background-color: #007bff; 
+   height: 43px;
+   padding-left: 10px;
+   width: 184px;
+}
+.lastbutton button{
+    height: 43px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    width: 100px;
+}
+.footerlast{
+    background-color: #007bff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.divfooter{
+    padding: 50px 20px;
+}
+.divfooter p{
+    color: rgb(195, 176, 176);
+}
+@media (min-width:768px){
+    .loni{
+        display: flex;
+    }
+    .seven1box{
+        max-width: 33.33%;
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 31px;
+        padding-left: 20px;
+    }
+    .secttwochild{
+        display: flex;
+        padding-top: 55px;
+    }
+    .forthfinal{
+        display: flex;
+    }
+    .forth1{
+        max-width: 43%;
+        padding-top: 70px;
+    }
+    .max{
+        display: flex;
+    }
+    .finalsix{
+        display: flex;
+    }
+    .lastall{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (min-width:768px){
+    .desktop{
+        display: block;
+        display: flex;
+    }
+    .desktop ul {
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .desktop ul li{
+        padding: 30px;
+        list-style: none;
+    }
+    .desktop h5{
+        display: none;
+    }
+    .desktop ul li a{
+        color: white;
+    }
+    .thirdfinal{
+        display: flex;
+    }
+    .third1 img{
+        width: 100%;
+        height: auto;
+    }
+    .third2{
+        max-width: 41%;
+    }
+    .third2 p{
+        line-height: 30px;
+    }
+    .forth1 p{
+        line-height: 1.7;
+    }
+}

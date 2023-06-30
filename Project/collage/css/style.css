@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.first{ 
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(https://preview.colorlib.com/theme/edusite/img/home-background.jpg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.first h1{
+    /* padding-top: 300px; */
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    background-color: rgba(255, 166, 0, 0.882);
+}
+.mypara{
+    height: 650px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+.mypara p{
+    font-size: 20px;
+}
+.content{
+    margin-left: 40px;
+}
+.fourth{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(https://images.pexels.com/photos/5427659/pexels-photo-5427659.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.fourth p{
+    font-size: 20px;
+}
+.eight{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.nine img{
+    width: 100px;
+    height: 40px;
+    margin-top: 90px;
+}
+.footer{
+    margin-top: 90px;
+}
+.footer li{
+    list-style: none;
+    margin-right: 10px;
+}
+.bi{
+    margin-right: 20px;
+}

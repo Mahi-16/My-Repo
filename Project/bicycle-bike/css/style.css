@@ -1,0 +1,466 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--bs-white);
+
+}
+
+.main-nav {
+    height: 100px;
+}
+
+.bookbtn a {
+    background-color: #1B3E41;
+}
+
+.main-nav ul li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: var(--bs-black);
+}
+
+.mobile-nav {
+    height: 60px;
+}
+
+.mobile-nav a img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.menubtn {
+    width: 40px;
+    height: 40px;
+
+}
+
+.menubtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.bookbtn1 {
+    background-color: #1B3E41;
+    font-size: 14px;
+}
+
+.section1 {
+    background-image: linear-gradient(to right, rgb(37, 32, 32, 0.9), rgb(60, 26, 26, 0.1)), url(../images/background/S1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+
+}
+
+.bike h2 {
+    font-size: 20px;
+    padding-right: 100px;
+    line-height: 30px;
+
+}
+
+.bike a {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.addons h5,
+.many h5 {
+    color: #1B3E41;
+}
+
+.addons {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.addons button {
+    background-color: #1B3E41;
+    width: 50px;
+}
+
+.Features img {
+    height: 50px;
+
+}
+
+.sect2img img {
+    height: 631px;
+    width: 100%;
+}
+
+.section3 {
+    background-image: url(../images/background/form_back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form1 input {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form1 button {
+    background-color: #1B3E41;
+}
+
+.percent h3 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.percent h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.percent {
+    padding: 0 50px;
+}
+
+.now {
+    background-color: #1B3E41;
+}
+
+.section5 h2 {
+    color: #1B3E41;
+}
+
+.cardb1 h5 {
+    color: #1B3E41;
+}
+
+.cardb1 p {
+    color: #1B3E41;
+    line-height: 10px;
+}
+
+.cardb1 a,
+.shams {
+    color: #1B3E41;
+}
+
+.section6 {
+    background-image: url(../images/background/form_back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.care a {
+    display: flex;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.care a i {
+    font-size: 32px;
+}
+
+.Included {
+    position: relative;
+    top: 80px;
+}
+
+.section7 h2 {
+    color: #1B3E41;
+    margin-top: 100px;
+}
+
+.say i {
+    font-size: 66px;
+    padding-top: 20px;
+}
+
+/* .say:hover{
+    border-bottom:3px solid red;
+} */
+.say {
+    border-bottom: 3px solid gray;
+}
+
+.section8 h2 {
+    color: #1B3E41;
+}
+
+.latest {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #1b3e41 100%), url(../images/background/blog_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    cursor: pointer;
+}
+
+.latest2 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #1b3e41 100%), url(../images/background/blog_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    cursor: pointer;
+}
+
+.latest3 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #1b3e41 100%), url(../images/background/blog_3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    cursor: pointer;
+}
+
+.latest4 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, #1b3e41 100%), url(../images/background/blog_4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    cursor: pointer;
+}
+
+.newsimg img {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1B3E41;
+
+}
+
+.mobilefooter ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.link ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footericons span {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.footericons span i {
+    color: gray;
+    font-size: 20px;
+}
+
+.bike a {
+    padding: 10px 10px;
+}
+.form1{
+    padding: 25px;
+}
+.Included{
+    padding: 20px;
+}
+.overlap{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+    .bookbtn a {
+        padding: 10px 30px;
+    }
+
+    .bike h2 {
+        font-size: 50px;
+        padding-right: 800px;
+        line-height: 59px;
+    }
+
+    .bike {
+        margin-left: 100px;
+    }
+
+    .bike p {
+        font-size: 16px;
+        padding-right: 977px;
+        padding-top: 15px;
+    }
+
+    .section1 {
+        height: 800px;
+    }
+
+    .bike a {
+        padding: 10px 30px;
+    }
+
+    .addons {
+        position: relative;
+        bottom: 100px;
+        padding: 30px;
+    }
+
+    .addons h5 {
+        font-size: 25px;
+    }
+
+    .facilities h2 {
+        font-size: 48px;
+        padding-right: 98px;
+        padding-top: 50px;
+    }
+
+    .facilities {
+        margin-left: 50px;
+    }
+.sect2img img{
+    margin-left: 45px;
+}
+.section3 {
+    padding: 30px 0px;
+}
+.package h3{
+    font-size: 40px;
+}
+.package h2{
+    font-size: 40px;
+}
+.package p{
+   padding: 0px 50px;
+}
+.orderimg2 {
+margin-top:50px ;
+}
+.section5 h2{
+    font-size: 40px;
+}
+.Included {
+    padding: 50px;
+}
+.Included h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section7 h2{
+    font-size: 40px;
+    margin-top: 150px;
+}
+.section8  h2{
+    font-size: 40px;
+}
+.LatestNews{
+    font-size: 40px;
+}
+.overlap{
+    padding: 80px;
+    position: relative;
+    top: 100px;
+}
+/* .footer{
+    position: relative;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) {}
